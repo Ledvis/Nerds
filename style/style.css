@@ -1,0 +1,187 @@
+body {
+	min-width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: 500;
+	font-family: "Roboto", "Arial", sans-serif;
+	color: rgb(0, 0, 0);
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+header {
+	padding-top: 27px;
+	padding-bottom: 59px;
+	background-color: rgb(238, 238, 238);
+}
+
+header a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+.header-menu {
+	margin-bottom: 92px;
+}
+
+.logo {
+	float: left;
+	width: 139px;
+	height: 56px;
+	margin-right: 160px;
+}
+
+.logo img {
+	width: 139px;
+	height: 56px;
+}
+
+.main-navigation {
+	float: left;
+	max-width: 450px;
+	padding-top: 28px;
+}
+
+.main-navigation ul {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	list-style: none;
+}
+
+.main-navigation li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.main-navigation a,
+.cart a {
+	display: block;
+	font-size: 14px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.main-navigation a {
+	padding: 0 23px;
+}
+
+.cart {
+	float: right;
+	max-width: 100px;
+	padding-top: 28px;
+}
+
+.cart a {
+	padding-left: 32px;
+}
+
+.btn {
+	display: block;
+	width: 240px;
+	padding: 11px 0;
+	font-size: 12px;
+	line-height: 18px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	text-align: center;
+	background-color: rgb(251, 86, 90);
+	border-radius: 3px;
+}
+
+.slaider b {
+	display: block;
+	font-size: 36px;
+}
+
+.slaider p {
+	margin-bottom: 29px;
+	line-height: 22px;
+	color: rgb(40, 49, 54);
+}
+
+.slaider-1 {
+	position: relative;
+	display: none;
+}
+
+.slaider-1 b {
+	width: 250px;
+}
+
+.slaider-1 p {
+	width: 365px;
+}
+
+.slaider-2 {
+	position: relative;
+	display: none;
+}
+
+.slaider-2 b {
+	width: 470px;
+}
+
+.slaider-2 p {
+	width: 450px;
+}
+
+.slaider-3 {
+	position: relative;
+	display: none;
+}
+
+.slaider-3 b {
+	width: 320px;
+}
+
+.slaider-3 p {
+	width: 470px;
+}
+
+.slaider-1::after {
+	content: "";
+	position: absolute;
+	top: -10px;
+	right: 0;
+	width: 338px;
+	height: 231px;
+	background: url("../img/Layer-29.png") no-repeat;
+}
+
+.slaider-2::after {
+	content: "";
+	position: absolute;
+	top: -10px;
+	right: 0;
+	width: 230px;
+	height: 249px;
+	background: url("../img/Layer-40.png") no-repeat;
+}
+
+.slaider-3::after {
+	content: "";
+	position: absolute;
+	top: -30px;
+	right: 0;
+	width: 333px;
+	height: 319px;
+	background: url("../img/Layer-37.png") no-repeat;
+}
