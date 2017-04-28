@@ -157,7 +157,6 @@ header {
 	border: 3px solid rgb(255, 255, 255);
 	border-radius: 50%;
 	cursor: pointer;
-	transition: all 1s;
 }
 
 #btn-1:checked~.slider-controls label[for="btn-1"],
@@ -352,50 +351,23 @@ main {
 	box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.15);
 }
 
-.content-right {
-	float: right;
-	width: 235px;
-	text-align: center;
-}
-
-.content-right .logo {
-	float: none;
-	display: inline-block;
-	margin-bottom: 25px;
-	vertical-align: top;
-}
-
-.promo {
+.content {
 	position: relative;
-	margin-bottom: 65px;
-	text-transform: uppercase;
+	margin-bottom: 116px;
 }
 
-.promo span {
-	position: relative;
-	z-index: 1;
-	padding: 0 14px;
-	background-color: rgb(255, 255, 255);
-}
-
-.promo::before {
+.content::before {
 	content: "";
 	position: absolute;
-	top: 8px;
-	left: 0;
-	z-index: 0;
+	bottom: -80px;
 	width: 100%;
 	height: 2px;
 	background-color: rgb(238, 238, 238);
 }
 
-.content-right ul,
-.content-right h2 {
-	text-align: left;
-}
-
 .content-left {
-	margin-right: 300px;
+	float: left;
+	width: 580px;
 }
 
 .content h1,
@@ -447,4 +419,162 @@ main {
 
 .content li:not(:last-child) {
 	margin-bottom: 22px;
+}
+
+.content-right {
+	float: right;
+	width: 235px;
+	text-align: center;
+}
+
+.content-right .logo {
+	position: relative;
+	top: -12px;
+	float: none;
+	display: inline-block;
+	width: 187px;
+	height: 75px;
+	margin-bottom: 18px;
+	vertical-align: top;
+}
+
+.content-right .logo img {
+	width: 187px;
+	height: 75px;
+}
+
+.promo {
+	position: relative;
+	margin-bottom: 65px;
+	text-transform: uppercase;
+}
+
+.promo span {
+	position: relative;
+	z-index: 1;
+	padding: 0 14px;
+	background-color: rgb(255, 255, 255);
+}
+
+.promo::before {
+	content: "";
+	position: absolute;
+	top: 8px;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	height: 2px;
+	background-color: rgb(238, 238, 238);
+}
+
+.content-right ul,
+.content-right h2 {
+	text-align: left;
+}
+
+.brands {
+	position: relative;
+	margin-bottom: 120px;
+}
+
+.brands::before {
+	content: "";
+	position: absolute;
+	bottom: -34px;
+	width: 100%;
+	height: 2px;
+	background-color: rgb(238, 238, 238);
+}
+
+.brands figure {
+	margin: 0;
+}
+
+.brands .glukhanko {
+	float: left;
+	width: 198px;
+	margin-right: 120px;
+	padding-top: 22px;
+	padding-left: 10px;
+}
+
+.brands .html {
+	float: left;
+	width: 199px;
+	padding-top: 9px;
+}
+
+.brands .borodinski {
+	float: right;
+	width: 209px;
+	padding-right: 18px;
+}
+
+.brands .glukhanko img {
+	width: 198px;
+	height: 37px;
+}
+
+.brands .html img {
+	width: 199px;
+	height: 68px;
+}
+
+.brands .borodinski img {
+	width: 209px;
+	height: 90px;
+}
+
+.map {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.map .map-big {
+	width: 1199px;
+	height: 416px;
+}
+
+.map .mark {
+	position: absolute;
+	top: 112px;
+	right: 130px;
+	width: 231px;
+	height: 190px;
+}
+
+.contact {
+	position: absolute;
+	top: 88px;
+	left: 160px;
+	width: 205px;
+	padding-top: 24px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 26px;
+	background-color: rgb(255, 255, 255);
+}
+
+.contact h1 {
+	margin: 0;
+	margin-bottom: 18px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.contact span {
+	display: block;
+	line-height: 20px;
+	color: rgb(102, 102, 102);
+}
+
+.contact span+span {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.contact .btn {
+	width: 204px;
 }
