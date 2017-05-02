@@ -3,8 +3,8 @@ var link = document.querySelector(".link");
 var close = popup.querySelector(".close");
 var overlay = document.querySelector(".overlay");
 var form = popup.querySelector("form");
-var name = form.querySelector("[name=name]");
-var email = form.querySelector("[name=email]");
+var name = popup.querySelector("[name=name]");
+var email = popup.querySelector("[name=email]");
 var storage = localStorage.getItem("name");
 
 link.addEventListener("click", function (event) {
