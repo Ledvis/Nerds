@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Nerds</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="style/normalize.min.css">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+
+<body class="inner-page">
+	<header>
+		<div class="container">
+			<div class="header-menu clearfix">
+				<div class="logo">
+					<img src="img/logo.png" alt="" width="139" height="56">
+				</div>
+				<div class="cart">
+					<a href="#">Корзина</a>
+				</div>
+				<nav class="main-navigation">
+					<ul>
+						<li>
+							<a href="#">Студия</a>
+						</li>
+						<li>
+							<a href="#">Клиенты</a>
+						</li>
+						<li>
+							<span>Магазин</span>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="inner-title">
+				<h1>Добро пожаловать в магазин готовых макетов</h1>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="inner-content container clearfix">
+			<div class="inner-content-left">
+				<form action="#" method="post">
+					<h2>Стоимость</h2>
+					<div class="range">
+						<span class="range-left"></span>
+						<span class="range-right"></span>
+					</div>
+					<div class="clearfix">
+						<label for="min">
+							От
+							<input type="number" id="min" min="0" max="15000" value="0">
+						</label>
+						<label for="max">
+							До
+							<input type="number" id="max" min="0" max="15000" value="15000">
+						</label>
+					</div>
+					<h2>Сетка:</h2>
+					<label for="radio-1">
+						Адаптивная
+						<input type="radio" name="radio" id="radio-1">
+						<span class="indicator"></span>
+					</label>
+					<label for="radio-2">
+						Фиксированная
+						<input type="radio" name="radio" id="radio-2">
+						<span class="indicator"></span>
+					</label>
+					<label for="radio-3">
+						Резиновая
+						<input type="radio" name="radio" id="radio-3">
+						<span class="indicator"></span>
+					</label>
+					<h2>Особенности:</h2>
+					<label for="checkbox-1">
+						Слайдер
+						<input type="checkbox" name="" id="checkbox-1">
+						<span class="indicator"></span>
+					</label>
+					<label for="checkbox-2">
+						Блок преимуществ
+						<input type="checkbox" name="" id="checkbox-2">
+						<span class="indicator"></span>
+					</label>
+					<label for="checkbox-3">
+						Новости
+						<input type="checkbox" name="" id="checkbox-3">
+						<span class="indicator"></span>
+					</label>
+					<label for="checkbox-4">
+						Галерея
+						<input type="checkbox" name="" id="checkbox-4">
+						<span class="indicator"></span>
+					</label>
+					<label for="checkbox-5">
+						Корзина
+						<input type="checkbox" name="" id="checkbox-5">
+						<span class="indicator"></span>
+					</label>
+					<button class="btn" type="button">Показать</button>
+				</form>
+			</div>
+			<div class="inner-content-right">
+				<div class="sorting">
+					<span>Сортировать:</span>
+					<a href="#">По цене</a>
+					<a href="#">По типу</a>
+					<a href="#">По функционалу</a>
+					<span class="arrow-up"></span>
+					<span class="arrow-down"></span>
+				</div>
+				<div class="inner-catalog clearfix">
+					<a href="#" class="inner-catalog-item">
+						<div class="inner-catalog-bar"></div>
+						<img src="img/inner-item-1.jpg" alt="" width="240" height="240">
+					</a>
+					<a href="#" class="inner-catalog-item inner-active-item">
+						<div class="inner-catalog-banner">
+							<h3>Sunset</h3>
+							<p>Интернет-магазин <br> с личным кабинетом</p>
+							<span>10000 Р.</span>
+						</div>
+						<div class="inner-catalog-bar"></div>
+						<img src="img/inner-item-2.jpg" alt="" width="240" height="240">
+					</a>
+					<a href="#" class="inner-catalog-item">
+						<div class="inner-catalog-bar"></div>
+						<img src="img/inner-item-3.jpg" alt="" width="240" height="240">
+					</a>
+					<a href="#" class="inner-catalog-item">
+						<div class="inner-catalog-bar"></div>
+						<img src="img/inner-item-4.jpg" alt="" width="240" height="240">
+					</a>
+					<a href="#" class="inner-catalog-item">
+						<div class="inner-catalog-bar"></div>
+						<img src="img/inner-item-5.jpg" alt="" width="240" height="240">
+					</a>
+					<a href="#" class="inner-catalog-item">
+						<div class="inner-catalog-bar"></div>
+						<img src="img/inner-item-6.jpg" alt="" width="240" height="240">
+					</a>
+					<div class="breadcrumbs">
+						<span class="current">1</span>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a class="next" href="#">Следующая</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="map">
+			<img class="map-big" src="img/map.png" alt="" width="1200" height="416">
+			<img class="mark" src="img/mark.png" alt="" width="231" height="190">
+			<article class="contact">
+				<h1>Nёrds design studio</h1>
+				<span>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
+				<span>тел. +7 (812) 275-75-75</span>
+				<a class="btn link" href="#">Напишите нам</a>
+			</article>
+		</section>
+	</main>
+	<footer>
+		<div class="container clearfix">
+			<div class="social">
+				<a class="vk" href="#">Вконтакте</a>
+				<a class="fb" href="#">Фейсбук</a>
+				<a class="inst" href="#">Инстаграм</a>
+			</div>
+			<div class="footer-promo">
+				<b>Давайте дружить, это выгодно!</b>
+				<span>Скидка 10% для друзей из социальных сетей.</span>
+			</div>
+		</div>
+	</footer>
+	<div class="modal-popup">
+		<button class="close" type="button"></button>
+		<form action="#" method="post">
+			<label for="name">Ваше имя:
+				<input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста">
+			</label>
+			<label for="email">Ваш e-mail:
+				<input type="email" name="email" id="email" placeholder="Для отправки ответа">
+			</label>
+			<label for="text">Текст письма:
+				<textarea name="" id="text" placeholder="В свободной форме"></textarea>
+			</label>
+			<button class="btn">Отправить</button>
+		</form>
+	</div>
+	<div class="overlay"></div>
+	<script src="script/script.js"></script>
+</body>
+</html>
